@@ -1,17 +1,73 @@
-# cadastro_cliente
+#  – CRUD de Usuários
 
-A new Flutter project.
+Aplicativo mobile desenvolvido com **Flutter e Dart**, com o objetivo de implementar as operações fundamentais de um CRUD (Create, Read, Update e Delete) para gerenciamento de usuários.
 
-## Getting Started
+O projeto permite cadastrar, consultar, atualizar e excluir usuários, utilizando SQLite para armazenamento local dos dados.
 
-This project is a starting point for a Flutter application.
+## 🚀 Tecnologias utilizadas
 
-A few resources to get you started if this is your first Flutter project:
+- **Dart** – Linguagem de programação.
+- **Flutter** – Framework para desenvolvimento mobile.
+- **SQLite** – Banco de dados local.
+- **SQFlite** – Integração do SQLite com Flutter.
+- **Material Design 3** – Construção da interface.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## ⚙️ Funcionalidades
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [x] Cadastro de usuários.
+- [x] Listagem de usuários cadastrados.
+- [x] Consulta de usuários.
+- [x] Atualização de informações.
+- [x] Exclusão de usuários.
+- [x] Armazenamento local com SQLite.
+
+
+## 📋 Dados dos usuários
+
+O sistema trabalha com as seguintes informações:
+
+| Campo | Descrição |
+|---|---|
+| ID | Identificador único |
+| Nome | Nome completo |
+| E-mail | Endereço de e-mail |
+
+## 💻 Como executar o projeto
+
+**1. Clone o repositório**
+
+```bash
+git clone https://github.com/kaua-stack/user_manager.git
+```
+
+**2. Acesse a pasta**
+
+```bash
+cd user_manager
+```
+
+**3. Instale as dependências**
+
+```bash
+flutter pub get
+```
+
+**4. Execute o aplicativo**
+
+```bash
+flutter run
+```
+
+## 🎯 Objetivo do projeto
+
+Este projeto foi desenvolvido com o propósito de praticar e aprofundar conhecimentos em desenvolvimento mobile utilizando Flutter e Dart, explorando manipulação de dados, persistência local, organização de código e implementação das operações CRUD.
+
+## 👨‍💻 Desenvolvedor
+
+**Kauã Alves**
+
+- GitHub: [@kaua-stack](https://github.com/kaua-stack)
+
+---
+
+⭐ Se este projeto foi útil ou interessante, considere deixar uma estrela no repositório!
